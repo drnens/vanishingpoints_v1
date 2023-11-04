@@ -6,10 +6,8 @@
 import numpy as np
 import cv2
 
-# Load the image
-img = cv2.imread('/home/enes/PycharmProjects/pythonProject/example_images/example4vanishingpoint/test images/test_02.jpg')
+img = cv2.imread('/home/xxx.jpg') # Add your path.
 
-# Convert to grayscale
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 # Detect edges using Canny
